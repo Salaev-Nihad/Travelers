@@ -1,0 +1,100 @@
+#learn-more{
+    margin: 150px;
+    a{
+        transition: all .3s ease;
+        &:hover{
+            color: #ff6048;
+        }
+    }
+    .learn-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        // width: 400px;
+
+       .learn-top{
+        display: flex;
+        // flex-direction: column;
+
+        .learn-box{
+            display: flex;
+            gap: 15px;
+            .learn-icon{
+                color: #ef6c57;
+                font-size: 50px;
+            }
+            .learn-txt{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                h3{
+                    font-weight: 400;
+                }
+                p{
+                    width: 278px;
+                    color: #4d4d4d;
+                }
+               .learn-button{ 
+                    a{
+                        color: #ef6c57;  
+                        transition: all .3s ease;
+                        &:hover{
+                            color: #ff6048;
+                        }               
+                    }
+                   
+               }
+            }
+        }
+       }
+       .learn-bottom{
+        display: flex;
+        .learn-box{
+            display: flex;
+            gap: 15px;
+            .learn-icon{
+                color: #ef6c57;
+                font-size: 50px;
+            }
+            .learn-txt{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                h3{
+                    font-weight: 400;
+                }
+                p{
+                    width: 278px;
+                    color: #4d4d4d;
+                }
+               .learn-button{ 
+                    a{
+                        color: #ef6c57;  
+                        transition: all .3s ease;
+                        &:hover{
+                            color: #ff6048;
+                        }               
+                    }
+                   
+               }
+            }
+        }
+       }
+    }
+}
+@media (max-width:1200px) {
+    #learn-more{
+        .learn-content{
+            .learn-txt{
+                flex-wrap: wrap;
+            }
+            .learn-top{
+                flex-direction: column;
+            }
+            .learn-bottom{
+                flex-direction: column;
+            }
+        }
+    }
+}

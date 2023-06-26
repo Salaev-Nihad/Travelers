@@ -1,0 +1,235 @@
+#dest{
+    margin-bottom: 150px;
+    .dest-content{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .dest-zaq{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 50px;
+            h2{
+                font-size:35px ;
+                font-weight: 300;
+            }
+            p{
+                color: #ccc;
+            }
+        }
+        .dest-sale{
+            display: flex;
+            justify-content: space-between;
+            .sale-box1{
+                background-image: url(/assets/image/02-rome.jpg.webp);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 540px;
+                height: 616px;
+                &:hover{
+                    transition: all .3s ease;
+                    transform: scale(.9);
+                }
+                .sale-price{
+                    display: flex;
+                    gap: 4px;
+                    color: #fff;
+                }
+            }
+            .sale-box2{
+                    background-image: url(/assets/image/01-greece.jpg.webp);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    width: 540px;
+                    height: 616px;
+                    &:hover{
+                        transition: all .3s ease;
+                        transform: scale(.9);
+                    }
+                    .sale-price{
+                        display: flex;
+                        gap: 4px;
+                        color: #fff;
+                    }
+            }
+        }
+        .dest-top{
+            display: flex;
+            justify-content: space-between;
+            .dest-box-left{
+                background-image: url(/assets/image/01-greece.jpg.webp);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 350px;
+                height: 400px;
+                :hover{
+                    transition: all .3s ease;
+                    transform: scale(.9);
+                }
+                .dest-txt{
+                    height: 400px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: end;
+                    gap: 15px;
+                    padding-bottom: 15px;
+                    span{
+                        color: #ef6c57;
+                    }
+                    p{
+                        color: #fff;
+                        font-size: 20px;
+                    }
+                }
+            }
+            .dest-box-center{
+                background-image: url(/assets/image/02-rome.jpg.webp);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 350px;
+                height: 400px;
+                :hover{
+                    transition: all .3s ease;
+                    transform: scale(.9);
+                }
+                .dest-txt{
+                    height: 400px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: end;
+                    gap: 15px;
+                    padding-bottom: 15px;
+                    span{
+                        color: #ef6c57;
+                    }
+                    p{
+                        color: #fff;
+                        font-size: 20px;
+                    }
+                }
+            }
+            .dest-box-right{
+                background-image: url(/assets/image/03-japan.jpg.webp);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 350px;
+                height: 400px;
+                :hover{
+                    transition: all .3s ease;
+                    transform: scale(.9);
+                }
+                .dest-txt{
+                    height: 400px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: end;
+                    gap: 15px;
+                    padding-bottom: 15px;
+                    span{
+                        color: #ef6c57;
+                    }
+                    p{
+                        color: #fff;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .dest-bottom{
+            display: flex;
+            justify-content: space-between;
+            .dest-bot-left{
+                background-image: url(/assets/image/04-dubai.jpg.webp);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 350px;
+                height: 400px;
+                :hover{
+                    transition: all .3s ease;
+                    transform: scale(.9);
+                }
+                .dest-txt{
+                    height: 400px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: end;
+                    gap: 15px;
+                    padding-bottom: 15px;
+                    span{
+                        color: #ef6c57;
+                    }
+                    p{
+                        color: #fff;
+                        font-size: 20px;
+                    }
+                }
+            }
+            .dest-bot-center{
+                background-image: url(/assets/image/05-london.jpg.webp);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 350px;
+                height: 400px;
+                :hover{
+                    transition: all .3s ease;
+                    transform: scale(.9);
+                }
+                .dest-txt{
+                    height: 400px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: end;
+                    gap: 15px;
+                    padding-bottom: 15px;
+                    span{
+                        color: #ef6c57;
+                    }
+                    p{
+                        color: #fff;
+                        font-size: 20px;
+                    }
+                }
+            }
+            .dest-bot-right{
+                background-image: url(/assets/image/06-australia.jpg.webp);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 350px;
+                height: 400px;
+                :hover{
+                    transition: all .3s ease;
+                    transform: scale(.9);
+                }
+                .dest-txt{
+                    height: 400px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: end;
+                    gap: 15px;
+                    padding-bottom: 15px;
+                    span{
+                        color: #ef6c57;
+                    }
+                    p{
+                        color: #fff;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
